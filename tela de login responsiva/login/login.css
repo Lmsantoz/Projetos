@@ -1,0 +1,85 @@
+body{
+    background-color: #fff;
+    font: arial  ;
+    font-size: 21px;
+    background-color: #000;
+}
+
+.title {
+    padding: 15px;
+    color: #000000;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    color: #000000;
+    gap: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.peso label{
+    margin-right: 13px ;
+}
+
+input{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    background-color: #f3f3f3;
+}
+
+input:hover{
+    background-color: #dbdbdb;
+}
+
+button{
+    background-color: #38afff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #ffffff;
+    width: 253px;
+    margin: auto;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+button:hover{
+    background-color: #0290ee;
+    color: #ffffff;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.418);
+    
+}
+
+button:active{
+    box-shadow: none;
+    background-color: #38afff;
+}
+
+#resultado{
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #38afff;
+    color: #fff;
+    padding: 10px;
+    transition: all 0,4s ease;
+    font-size: 14px;
+}
+
+
+

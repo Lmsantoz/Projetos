@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(8, 177, 255);
+    font: arial black;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+}
+
+#img{
+    width: 300px;
+    margin: auto;
+    border-radius: 25px;
+   
+}
+
+input[type="button"]{
+    color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.233);
+    
+    border: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type="button"]:active{
+    box-shadow: none;
+    background-color: #ffffff65;
+    color: balck;
+}
+
+
+section{
+    background-color: #fff;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#botao{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(51, 156, 248);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: #ffffff; 
+    text-align: center;  
+}
+
+#imagem{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.199);
+}
+    
+
+section{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
+}
+
+#txtn{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#camptxt2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#camptxt select{
+    width: 30%;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="verificador.css">
+    <script src="verificador.js"></script>
+</head>
+<body>
+    <header>
+        <!--titulo-->
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+
+            <p>Ano de nascimento</br>
+                <!--campo para escrever numero-->
+                    <input type="number" name=" txtano" id="txtano" min="0">
+            </p>
+            <p>
+                <!-- botoes masc e fem -->
+                Sexo:
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem" >
+                    <label for="fem">Feminino</label>
+            </p>            
+            <p>
+                <!--crie botao-->
+                <input id="botao" type="button"  width="300" height="200" value="Verificar" onclick="verificar()" >
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; LucasMarques</p>
+    </footer>
+    
+</body>
+</html>
