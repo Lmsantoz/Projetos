@@ -1,2 +1,2 @@
 # Projetos
-Repositorio criado para colocar todos os projetos e ver minha evolução
+Repositório criado para colocar meus projetos pessoais e registrar minha evolução 
