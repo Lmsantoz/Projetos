@@ -1,0 +1,70 @@
+body{
+    background-image: url(/IMG/pexels-satoshi-4058530\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin: 0;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5% 5% 5% 5%;
+    width: 10%;
+    margin: auto;
+    flex-direction: column;
+    background-color: #3c18359d;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+input{
+    margin: 5%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+input:hover{
+    background-color: #e7e7e7;
+}
+
+
+.campoCad{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 9% 5% 9% 5%;
+    color: #eb21e1;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #eb21e1;
+    color: white;
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: inset 0px 3px 5px #590d55;
+    color: #d4d4d48a
+}
+
+a{
+    text-decoration: none;
+    color: #ebb6da;
+}
+
+a:hover{
+    color:#ce65c9
+}
